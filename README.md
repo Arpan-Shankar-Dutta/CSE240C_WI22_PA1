@@ -11,7 +11,7 @@ git clone https://github.com/Arpan-Shankar-Dutta/CSE240C_WI22_PA1.git
 
 1. ```dpc3_traces``` contains all the championship traces.
 2. ```results_50M/dpc3_traces``` contains all results of all the simulations.
-3. ```prefetcher``` contains all the ```.li1_pref``` files that were created to be used for the simulations. The ```.li1_pref``` files is where the prefetcher parameters are which are changed for the design space and size explorations of all the prefetchers.
+3. ```prefetcher``` contains all the ```.li1_pref``` files that were created to be used for the simulations. The ```.li1_pref``` files is where the prefetcher parameters are located, which are changed for the design space and size explorations of all the prefetchers.
 5. All simulations were run on all 50 traces. All simulation used 50M instructions for warmup and 50M actual instructions on which the IPC and MPKI was calculated.
 
 # Instructions for running and reproducing the data
